@@ -1,0 +1,54 @@
+body {
+    margin: 0 auto;
+    max-width: 1200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, p, a, input, label, span {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #000;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  height: 100vh;
+}
+
+.login-container h1 {
+    font-size: 2.5rem;
+}
+
+.login-container h3 {
+    font-size: 1.5rem;
+    margin-bottom: 24px;
+    margin-top: 8px;
+}
+
+.caixa-de-login input {
+    display: block;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    padding: 12px 24px;
+    font-size: 1rem;
+}
+
+.caixa-de-login label {
+    font-size: 1.250rem;
+}
+
+.login-conteudo a {
+    display: block;
+    padding: 16px;
+    background-color: #3C3C3C;
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+}
+
+.login-conteudo p {
+    margin-top: 12px;
+}
