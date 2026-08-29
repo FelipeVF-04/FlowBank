@@ -1,0 +1,10 @@
+.configuracao-opcao {
+    margin-top: 12px;
+    padding: 12px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.configuracao-opcao span {
+    color: red;
+}
